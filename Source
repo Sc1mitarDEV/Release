@@ -11,10 +11,10 @@ local Tab1 = GUI:Tap("Home 🚪")
 local Tab2 = GUI:Tap("Main ⚓")
 local Tab3 = GUI:Tap("Misc 📀")
 
-Tab1:Label("Join Our Discord For Update Logs")
+Tab1:Join Our Discord For Update Logs
 Tab1:Line()
 
-Tab2:Label("Cool")
+Tab2:decent Script
 Tab2:Line()
 
 Tab2:Button("Notify Rush/Ambush",function()
