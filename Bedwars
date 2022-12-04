@@ -1,7 +1,7 @@
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
-wait(1)
+wait(0.9)
 Notification:Notify(
     {Title = "Configuring", Description = "Please Be Patient Loading Up Ui"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
@@ -13,7 +13,7 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 )
 
-wait(5)
+wait(4)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Bedwars | By Drx Team", "Synapse")
 
