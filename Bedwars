@@ -12,9 +12,9 @@ Notification:Notify(
     {Title = "Successful", Description = "Gui Successfully Loaded!"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 )
-
-wait(4)
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+and
+wait(5)
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/KGNhJGkb"))()
 local Window = Library.CreateLib("Bedwars | By Drx Team", "Synapse")
 
 local Tab1 = Window:NewTab("Home")
