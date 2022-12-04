@@ -63,3 +63,7 @@ _G.Settings = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
 
 end)
+
+Tab2Section:NewButton("VapeV4 (Need Config)", "Execute Vape V4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
