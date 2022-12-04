@@ -67,3 +67,7 @@ end)
 Tab2Section:NewButton("VapeV4 (Need Config)", "Execute Vape V4", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
+
+Tab2Section:NewButton("Keyboard Script", "Keyboard to open vape ui or other stuff", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
