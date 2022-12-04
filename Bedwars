@@ -1,0 +1,65 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+wait(1)
+Notification:Notify(
+    {Title = "Configuring", Description = "Please Be Patient Loading Up Ui"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
+
+wait(5)
+Notification:Notify(
+    {Title = "Successful", Description = "Gui Successfully Loaded!"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
+
+wait(5)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bedwars | By Drx Team", "Synapse")
+
+local Tab1 = Window:NewTab("Home")
+local Tab1Section = Tab1:NewSection("Information")
+
+local Tab2 = Window:NewTab("Main")
+local Tab2Section = Tab2:NewSection("Main Active Scripts")
+
+Tab1Section:NewButton("DrxTeam: Gui Maker, Script Maker,etc more", "", function()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Release: 12/1/22", "", function()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Discord: Join Our Discord For Scripts", "", function()
+    print("Clicked")
+end)
+
+Tab2Section:NewButton("No Lag", "Clears Lags Op", function()
+
+_G.Settings = {
+    Players = {
+        ["Ignore Me"] = true, -- Ignore your Character
+        ["Ignore Others"] = true -- Ignore other Characters
+    },
+    Meshes = {
+        Destroy = false, -- Destroy Meshes
+        LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+    },
+    Images = {
+        Invisible = true, -- Invisible Images
+        LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+        Destroy = false, -- Destroy Images
+    },
+    Other = {
+        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+        ["No Explosions"] = true, -- Makes Explosion's invisible
+        ["No Clothes"] = true, -- Removes Clothing from the game
+        ["Low Water Graphics"] = true, -- Removes Water Quality
+        ["No Shadows"] = true, -- Remove Shadows
+        ["Low Rendering"] = true, -- Lower Rendering
+        ["Low Quality Parts"] = true -- Lower quality parts
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+
+end)
